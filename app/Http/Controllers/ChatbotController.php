@@ -31,7 +31,7 @@ class ChatbotController extends Controller
         }
 
         $client = new Client();
-        $model = 'gemini-1.5-flash'; // Model Gemini yang akan digunakan
+        $model = 'gemma-3-4b-it'; // Model Gemini yang akan digunakan
 
         try {
             // --- Bagian yang dimodifikasi: Menyiapkan array 'contents' dengan instruksi sistem ---
